@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --font1: 'Crete Round', sans-serif;
+    --font2: 'Roboto Condensed', sans-serif;
+    --color1: #caf0f8;
+    --color2: #0077b6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color1);
+    font-family: var(--font1);
+    color: var(--color2);
+    margin: 0;
+}
+
+/******************************* SoT *******************************/
+
+#header-business-name {
+    font-size: 3rem;
+}
+
+#header-business-description {
+    font-family: var(--font2);
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.backgrounded-text {
+    background-color: var(--color2);
+    color: var(--color1);
+    max-width: max-content;
+    padding: 5px 8px;
+    border-radius: 15px;
+}
+
+#section-invitation-text {
+    font-family: var(--font2);
+    font-size: 2.7rem;
+    font-weight: 500;
+    line-height: 100px;
+}
+
+.header-dark-style {
+    font-size: 3rem;
+}
+
+.header-light-style {
+    color: var(--color1);
+    font-size: 3.2rem;
+}
+
+#section-season-offer {
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.regular-text {
+    font-size: 2rem;
+}
+
+#footer-header {
+    color: var(--color1);
+    font-size: 1.5rem;
+}
+
+#footer-text {
+    font-family: var(--font2);
+    font-size: 1rem;
+}
+
+/******************************* SoL *******************************/
+
+.navlink {
+    font-size: 1.9rem;
+    color: var(--color2);
+	text-decoration: none;
+    margin: 0 2% 0 0;
+    padding: 10px;
+}
+
+.navlink:hover {
+    color: var(--color1);
+    background-color: var(--color2);
+    border-radius: 15px;
+}
+
+#navigation label, #navigation-icon { 
+    display: none; 
+} 
+
+.contact-link {
+    color: var(--color1);
+	text-decoration: none;
+    margin: 1%;
+    padding: 0 2px;
+}
+
+.contact-link:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+    border-radius: 5px;
+}
+  
+/******************************* SoE *******************************/
+
+header {
+    display: flex;
+    background-color: var(--color2);
+    color: var(--color1);
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+#header-logo {
+    width: 80px;
+    height: auto;
+    padding: 1% 1% 1% 4%;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 4%;
+    margin: 20px 0;
+}
+
+#section-invitation {
+    background-color: var(--color1);
+    border: 25px solid var(--color2);
+    margin: 0 2%;
+}
+
+#section-invitation-text {
+    margin: 4% 0 0 4%;
+}
+
+.hr-style {
+    color: var(--color2);
+    background-color: var(--color2);
+    border: 0;
+    height: 3px;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.hr-left {
+    margin: 8% 0 50px 0;
+}
+
+.hr-right {
+    margin-top: 50px;
+    margin-right: 0;
+}
+
+#section-season-offer-header {
+    margin-left: 10%;
+}
+
+#section-season-offer {
+    margin: 5% 0 0 20%;
+}
+
+.header-light-style {
+    background-color: var(--color2);
+    text-align: center;
+    margin: 8% 0 0 0;
+    padding: 2% 0;
+}
+
+#section-we-love {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color2);
+    padding: 2% 0 6% 0;
+}
+
+.card {
+    background-color: var(--color1);
+    text-align: center;
+    width: 205px;
+    height: auto;
+    margin: 0 2%;
+    padding: 1%;
+    flex-grow: 1;
+}
+
+#section-visit-us {
+    display: flex;
+    padding: 2% 0 0 20%;
+}
+
+#section-visit-us-contact-info {
+    text-align: justify;
+    margin: 0 10%;
+}
+
+#section-visit-us-header-link {
+    margin-left: 10%;
+}
+
+#section-visit-us-logo {
+    width: 160px;
+    height: auto;
+    margin: 4% 0 0 4%;
+}
+
+footer {
+    background-color: var(--color2);
+    color: var(--color1);
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#footer-logo {
+    width: 45px;
+    height: auto;
+    padding: 1%;
+}
+
+#footer-header {
+    margin-bottom: 0;
+}
